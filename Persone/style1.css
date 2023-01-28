@@ -1,0 +1,16 @@
+
+
+
+.center-box{
+        display:flex;
+        justify-content:space-around;
+    }
+
+    
+.testo{
+    font-size: 45px;
+    width:1500px;
+    border: 1px;
+    word-wrap: break-word;
+    word-break: keep-all;
+}

@@ -1,0 +1,64 @@
+
+body{
+    background-image: linear-gradient(to top left, rgba(255,0,0,0.5), rgba(0,0,0,1));
+    
+}
+
+h1{
+
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+font-size: 6rem;
+
+background: linear-gradient(to left, red, rgb(155, 30, 222));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+ font: {
+  size: 10vw;
+ };
+}
+
+.center-box{
+    display:flex;
+    justify-content:space-around;
+}
+
+/*Navigation Barb rgba(209,190,190,0), rgb(209, 190, 190,0.5)*/
+
+.Menu{
+        display:flex;
+        justify-content: center;
+        background-image: linear-gradient(to left, rgba(231, 159, 159, 0.5), rgb(151, 91, 91) );
+        
+}
+
+li {
+    float: left;
+    color:aliceblue;
+    font-family: 'Segoe UI';
+    font-size:x-large;
+    border-right-style:solid;
+    border-width: 1,5px;
+  }
+
+li:last-child {
+    border-right: none;
+  }
+
+li a:link{
+    text-decoration:none;
+    color: aliceblue;
+    }
+
+li a:hover {
+    color: aqua;
+  }
+
+li a:visited{
+    color:white;
+}
+
+.Linea{
+    float: left;
+    display: block;
+    padding: 30px;
+}
